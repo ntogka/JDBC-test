@@ -21,7 +21,7 @@ public class Test1 {
                         "select l_admin_descr_gr as Locations, count (entity_details.entd_l_id) as Entities\n" +
                         "from locations, ENTITY_DETAILS, ENTITY\n" +
                         "where L_ID = entity_details.entd_l_id\n" +
-                                //"and entity_details.ent_id = ENTITY.ENT_ID\n" +
+                        "and entity_details.ent_id = ENTITY.ENT_ID\n" +
                         "group by l_admin_descr_gr");
             System.out.println("Locations\tEntities");
             System.out.println("----------------------------");
