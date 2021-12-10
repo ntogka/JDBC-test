@@ -65,7 +65,7 @@ public class Test3 {
 
                 int m = 0;
                 while (m == 0){
-                    if (hour.matches("([01]?[0-9]|2[0-3]):([0][0]|[1][5]|[3][0]|[4][5])")) {
+                    if (hour.matches("([01]?[1-9]|2[0-4]):([0][0]|[1][5]|[3][0]|[4][5])")) {
                         System.out.println("Good");
                         m++;
                     } else {
