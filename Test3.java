@@ -66,6 +66,7 @@ public class Test3 {
                 int m = 0;
                 while (m == 0){
                     if (hour.matches("([01]?[1-9]|2[0-4]):([0][0]|[1][5]|[3][0]|[4][5])")) {
+                        //dexetai apo 00:15 ews 24:00 ana tetarto diladi :00 :15 :30 :45
                         System.out.println("Good");
                         m++;
                     } else {
