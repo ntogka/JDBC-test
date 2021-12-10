@@ -63,17 +63,16 @@ public class Test3 {
                 System.out.print("Time : ");
                 String hour = scanner.next();
 
-                /*int m = 0;
+                int m = 0;
                 while (m == 0){
-                    if (hour.matches("([01]?[0-9]|2[0-3]):[0]|[15]|[30]|[45]")) { //error
-                        //if (hour.matches("^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0]|[15]|[30]|[45]$")) { //HH:MM 24-hour format, optional leading 0
+                    if (hour.matches("([01]?[0-9]|2[0-3]):([0][0]|[1][5]|[3][0]|[4][5])")) {
                         System.out.println("Good");
                         m++;
                     } else {
                         System.out.println("Invalid time. Try again.");
                         hour = scanner.next();
                     }
-                }*/
+                }
 
 
                 pst = con.prepareStatement(q1);
